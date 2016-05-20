@@ -1,0 +1,50 @@
+{
+  "uid" : "8f27f258defa7d54",
+  "name" : "\"before each\" hook",
+  "title" : "\"before each\" hook",
+  "time" : {
+    "start" : 1463736385739,
+    "stop" : 1463736392144,
+    "duration" : 6405
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "testId" : null,
+  "suite" : {
+    "uid" : "de88c7f78fb86336",
+    "name" : "Organization page",
+    "title" : "Organization page"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Organization page"
+  }, {
+    "name" : "suite-name",
+    "value" : "Organization page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "firefox",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "baseUrl",
+    "value" : "https://github.com/webdriverio",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "/Users/lqi/work/test/front-end/gulp_webdriverio_mocha/test/main.spec.js",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

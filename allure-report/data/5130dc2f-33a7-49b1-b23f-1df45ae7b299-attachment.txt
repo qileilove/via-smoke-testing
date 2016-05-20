@@ -1,0 +1,4 @@
+17:38:25.870 COMMAND: POST /url - {"url":"https://github.com/webdriverio/"}
+
+17:38:25.900 RESULT: null
+

@@ -1,0 +1,69 @@
+{
+  "testCases" : [ {
+    "uid" : "50cd5679609fcf88",
+    "name" : "list repositiories",
+    "title" : "list repositiories",
+    "time" : {
+      "start" : 1463737098442,
+      "stop" : 1463737112944,
+      "duration" : 14502
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "6990a8dff22d7b9",
+    "name" : "\"before each\" hook",
+    "title" : "\"before each\" hook",
+    "time" : {
+      "start" : 1463737105814,
+      "stop" : 1463737112945,
+      "duration" : 7131
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "f8cf34a06ca5b350",
+    "name" : "\"after each\" hook",
+    "title" : "\"after each\" hook",
+    "time" : {
+      "start" : 1463737112829,
+      "stop" : 1463737112945,
+      "duration" : 116
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "8c741f979b0fccd8",
+    "name" : "open next page",
+    "title" : "open next page",
+    "time" : {
+      "start" : 1463737104373,
+      "stop" : 1463737112959,
+      "duration" : 8586
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "566c57568148e63b",
+    "name" : "open project page",
+    "title" : "open project page",
+    "time" : {
+      "start" : 1463737105814,
+      "stop" : 1463737112963,
+      "duration" : 7149
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7d74444414bb5fbb",
+    "name" : "\"after all\" hook",
+    "title" : "\"after all\" hook",
+    "time" : {
+      "start" : 1463737112829,
+      "stop" : 1463737112963,
+      "duration" : 134
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  } ]
+}

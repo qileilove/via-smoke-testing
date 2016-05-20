@@ -1,0 +1,84 @@
+17:23:22.944 COMMAND: POST /elements - {"using":"css selector","value":".files .content"}
+
+17:23:22.961 RESULT: [{"ELEMENT":"46"},{"ELEMENT":"47"},{"ELEMENT":"48"},{"ELEMENT":"49"},{"ELEMENT":"50"},{"ELEMENT":"51"},{"ELEMENT":"52"},{"ELEMENT":"53"},{"ELEMENT":"54"},{"ELEMENT":"55"},"(10 more items)"]
+
+17:23:22.967 COMMAND: GET /element/46/text - {}
+
+17:23:22.967 COMMAND: GET /element/47/text - {}
+
+17:23:22.968 COMMAND: GET /element/48/text - {}
+
+17:23:22.969 COMMAND: GET /element/49/text - {}
+
+17:23:22.969 COMMAND: GET /element/50/text - {}
+
+17:23:22.969 COMMAND: GET /element/51/text - {}
+
+17:23:22.970 COMMAND: GET /element/52/text - {}
+
+17:23:22.970 COMMAND: GET /element/53/text - {}
+
+17:23:22.970 COMMAND: GET /element/54/text - {}
+
+17:23:22.971 COMMAND: GET /element/55/text - {}
+
+17:23:22.971 COMMAND: GET /element/56/text - {}
+
+17:23:22.971 COMMAND: GET /element/57/text - {}
+
+17:23:22.971 COMMAND: GET /element/58/text - {}
+
+17:23:22.972 COMMAND: GET /element/59/text - {}
+
+17:23:22.972 COMMAND: GET /element/60/text - {}
+
+17:23:22.972 COMMAND: GET /element/61/text - {}
+
+17:23:22.972 COMMAND: GET /element/62/text - {}
+
+17:23:22.972 COMMAND: GET /element/63/text - {}
+
+17:23:22.972 COMMAND: GET /element/64/text - {}
+
+17:23:22.972 COMMAND: GET /element/65/text - {}
+
+17:23:23.018 RESULT: "bin"
+
+17:23:23.033 RESULT: "test"
+
+17:23:23.050 RESULT: ".eslintignore"
+
+17:23:23.068 RESULT: ".eslintrc"
+
+17:23:23.086 RESULT: "lib"
+
+17:23:23.104 RESULT: "docs"
+
+17:23:23.119 RESULT: "examples"
+
+17:23:23.137 RESULT: ".gitignore"
+
+17:23:23.150 RESULT: ".github"
+
+17:23:23.163 RESULT: ".editorconfig"
+
+17:23:23.173 RESULT: ""
+
+17:23:23.186 RESULT: ".travis.yml"
+
+17:23:23.198 RESULT: ".npmignore"
+
+17:23:23.212 RESULT: "CHANGELOG.md"
+
+17:23:23.225 RESULT: "CONTRIBUTING.md"
+
+17:23:23.239 RESULT: "LICENSE-MIT"
+
+17:23:23.253 RESULT: "README.md"
+
+17:23:23.267 RESULT: "gruntfile.js"
+
+17:23:23.289 RESULT: "package.json"
+
+17:23:23.301 RESULT: "index.js"
+

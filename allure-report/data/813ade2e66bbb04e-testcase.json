@@ -1,0 +1,197 @@
+{
+  "uid" : "813ade2e66bbb04e",
+  "name" : "open next page",
+  "title" : "open next page",
+  "time" : {
+    "start" : 1463736384246,
+    "stop" : 1463736392147,
+    "duration" : 7901
+  },
+  "summary" : {
+    "attachments" : 7,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "de88c7f78fb86336",
+    "name" : "Organization page",
+    "title" : "Organization page"
+  },
+  "steps" : [ {
+    "name" : "url [\"about:blank\"]",
+    "title" : "url [\"about:blank\"]",
+    "time" : {
+      "start" : 1463736384246,
+      "stop" : 1463736384297,
+      "duration" : 51
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "dceab7ab-7c2d-483c-813a-f97871ba5dc5-attachment.txt",
+      "type" : "text/plain",
+      "size" : 84,
+      "uid" : "8e9e8bb1a2e8ff24"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "url [\"/\"]",
+    "title" : "url [\"/\"]",
+    "time" : {
+      "start" : 1463736384301,
+      "stop" : 1463736385411,
+      "duration" : 1110
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "3042cfe4-7e48-48bc-8a8a-544dfa2dfc38-attachment.txt",
+      "type" : "text/plain",
+      "size" : 104,
+      "uid" : "e941e89dee3da650"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "waitForExist [\".site-header\"]",
+    "title" : "waitForExist [\".site-header\"]",
+    "time" : {
+      "start" : 1463736385414,
+      "stop" : 1463736385428,
+      "duration" : 14
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "2e69e926-4f4d-4cf1-8509-20118a098af4-attachment.txt",
+      "type" : "text/plain",
+      "size" : 129,
+      "uid" : "dc45ad557871839c"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "click [\".next_page\"]",
+    "title" : "click [\".next_page\"]",
+    "time" : {
+      "start" : 1463736385430,
+      "stop" : 1463736385545,
+      "duration" : 115
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "c536439d-69c9-4410-9016-b54ecb340cf4-attachment.txt",
+      "type" : "text/plain",
+      "size" : 202,
+      "uid" : "2164af88bff2bd5"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "waitForExist [\".repo-list-item\"]",
+    "title" : "waitForExist [\".repo-list-item\"]",
+    "time" : {
+      "start" : 1463736385549,
+      "stop" : 1463736385698,
+      "duration" : 149
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "0eaa8720-b6c8-41fa-a806-6cffec67fc4c-attachment.txt",
+      "type" : "text/plain",
+      "size" : 303,
+      "uid" : "7a09317e973bb840"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "getUrl []",
+    "title" : "getUrl []",
+    "time" : {
+      "start" : 1463736385699,
+      "stop" : 1463736385714,
+      "duration" : 15
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "7a89796c-49e4-4333-ad17-c8f9d211f179-attachment.txt",
+      "type" : "text/plain",
+      "size" : 99,
+      "uid" : "36408e3adb5afdd4"
+    } ],
+    "steps" : [ ]
+  }, {
+    "name" : "elements [\".repo-list-item\"]",
+    "title" : "elements [\".repo-list-item\"]",
+    "time" : {
+      "start" : 1463736385716,
+      "stop" : 1463736385734,
+      "duration" : 18
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ {
+      "title" : "Selenium log",
+      "source" : "fc5335a4-82c2-47cf-ab75-2a8d41150d90-attachment.txt",
+      "type" : "text/plain",
+      "size" : 303,
+      "uid" : "45ade47bb57c8104"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Organization page"
+  }, {
+    "name" : "suite-name",
+    "value" : "Organization page"
+  } ],
+  "parameters" : [ {
+    "name" : "capabilities",
+    "value" : "firefox",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "baseUrl",
+    "value" : "https://github.com/webdriverio",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  }, {
+    "name" : "spec files",
+    "value" : "/Users/lqi/work/test/front-end/gulp_webdriverio_mocha/test/main.spec.js",
+    "kind" : "ENVIRONMENT_VARIABLE"
+  } ]
+}

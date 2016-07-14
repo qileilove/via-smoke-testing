@@ -1,4 +1,0 @@
-17:38:32.831 COMMAND: DELETE  - {}
-
-17:38:32.926 RESULT: null
-

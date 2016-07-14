@@ -1,8 +1,0 @@
-17:26:25.431 COMMAND: POST /element - {"using":"css selector","value":".next_page"}
-
-17:26:25.442 RESULT: {"ELEMENT":"22"}
-
-17:26:25.443 COMMAND: POST /element/22/click - {}
-
-17:26:25.545 RESULT: null
-

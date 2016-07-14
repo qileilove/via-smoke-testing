@@ -1,4 +1,0 @@
-17:18:40.733 COMMAND: POST /elements - {"using":"css selector","value":".repository-content"}
-
-17:18:40.748 RESULT: [{"ELEMENT":"45"}]
-

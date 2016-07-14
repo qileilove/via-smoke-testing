@@ -1,8 +1,0 @@
-17:18:36.006 COMMAND: POST /element - {"using":"css selector","value":".repo-list-item [href=\"/webdriverio/webdriverio\"]"}
-
-17:18:36.017 RESULT: {"ELEMENT":"44"}
-
-17:18:36.018 COMMAND: POST /element/44/click - {}
-
-17:18:40.726 RESULT: null
-

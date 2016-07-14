@@ -1,4 +1,0 @@
-17:18:23.620 COMMAND: POST /wd/hub/session - {"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"firefox","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.0.7","name":"webdriverio"}}}
-
-17:18:25.860 RESULT: {"applicationCacheEnabled":true,"rotatable":false,"handlesAlerts":true,"databaseEnabled":true,"version":"46.0.1","platform":"MAC","nativeEvents":false,"acceptSslCerts":true,"webdriver.remote.sessionid":"0a517ad8-8f37-4f13-92a2-d001e9386a7e","webStorageEnabled":true,"_":"5 more keys: [\"locationContextEnabled\",\"browserName\",\"takesScreenshot\",\"javascriptEnabled\",\"cssSelectorsEnabled\"]"}
-

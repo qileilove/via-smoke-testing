@@ -1,4 +1,0 @@
-17:38:24.374 COMMAND: POST /url - {"url":"about:blank"}
-
-17:38:24.417 RESULT: null
-

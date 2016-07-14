@@ -14,18 +14,21 @@
   "devDependencies": {
     "allure-commandline": "1.4.22-1",
     "babel-core": "^6.9.0",
+    "chai": "*",
     "del": "^2.2.0",
     "expect": "^1.13.4",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-notify": "^2.2.0",
     "gulp-shell": "^0.5.2",
-    "gulp-webdriver": "^2.0.1",
+    "gulp-webdriver": "^2.0.2",
     "mocha": "^2.3.4",
     "run-sequence": "^1.2.0",
     "selenium-standalone": "^5.1.0",
     "wdio-allure-reporter": "0.0.2",
     "wdio-mocha-framework": "^0.2.13",
-    "webdriverio": "^4.0.3"
+    "wdio-selenium-standalone-service": "0.0.5",
+    "webdrivercss": "1.1.10",
+    "webdriverio": "^4.2.1"
   }
 }

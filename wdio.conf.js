@@ -1,8 +1,10 @@
+var chai = require('chai');
 exports.config = {
 
     /**
      * server configurations
      */
+     services: ['selenium-standalone'],
     host: '0.0.0.0',
     port: 4444,
 
@@ -12,31 +14,41 @@ exports.config = {
     specs: [
         'test/*.spec.js'
     ],
-
+    viewpoint:{
+        width:1440,
+        height:900
+    },
     /**
      * capabilities
      */
     capabilities: [{
-        browserName: 'firefox'
+        browserName: 'chrome'
     }],
+    screenshotPath: 'errorShots',
 
     /**
      * test configurations
      */
     // logLevel: 'silent',
     coloredLogs: true,
-    screenshotPath: 'shots',
-    baseUrl: 'https://github.com/webdriverio',
+    baseUrl: 'http://deveportfolio.com/',
     waitforTimeout: 10000,
     framework: 'mocha',
 
-    reporters: ['dot', 'allure'],
+    reporters: ['dot'],
     reporterOptions: {
-        outputDir: './allure-results'
+        outputDir: '/allure-results'
     },
-
+    plugins: {
+             webdrivercss: {
+                 screenshotRoot: 'visual/reference',
+                 failedComparisonsRoot: 'visual/failed',
+                 misMatchTolerance: 0.05,
+                 screenWidth: [1024]
+             }
+         },
     mochaOpts: {
-        ui: 'bdd'
+        ui: 'bdd',
     },
 
     onPrepare: function() {
@@ -52,8 +64,13 @@ exports.config = {
     },
     onComplete: function() {
         // seleniumServer.kill();
-    }
+    },
     //
+
+    before: function(capabilities, specs) {
+    global.expect = chai.expect;
+    chai.Should();
+    }
         // =====
         // Hooks
         // =====

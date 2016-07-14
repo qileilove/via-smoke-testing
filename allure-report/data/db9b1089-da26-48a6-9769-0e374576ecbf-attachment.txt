@@ -1,4 +1,0 @@
-17:18:32.415 COMMAND: POST /elements - {"using":"css selector","value":".repo-list-item"}
-
-17:18:32.434 RESULT: [{"ELEMENT":"1"},{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"},{"ELEMENT":"5"},{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"},{"ELEMENT":"9"},{"ELEMENT":"10"},"(10 more items)"]
-

@@ -1,4 +1,0 @@
-17:38:32.452 COMMAND: GET /url - {}
-
-17:38:32.466 RESULT: "https://github.com/webdriverio/webdriverio"
-

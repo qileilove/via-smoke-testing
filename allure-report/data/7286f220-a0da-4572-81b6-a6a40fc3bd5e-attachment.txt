@@ -1,4 +1,0 @@
-17:23:15.466 COMMAND: POST /elements - {"using":"css selector","value":".site-header"}
-
-17:23:15.624 RESULT: [{"ELEMENT":"0"}]
-

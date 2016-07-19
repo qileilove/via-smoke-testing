@@ -17,8 +17,8 @@ describe('Organization page', function(){
     });
 
     it('login support', function() {
-     LoginPage.email.setValue('support@livetext.com');
-     LoginPage.password.setValue('r0ys1ngh4m');
+     LoginPage.email.setValue('aaa@livetext.com');
+     LoginPage.password.setValue('aaa');
      LoginPage.btnStart.waitForExist();
      LoginPage.submit();
      var notification = browser.element(' li.organizations a span');

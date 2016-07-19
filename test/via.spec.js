@@ -1,7 +1,10 @@
 const webdriverio = require('webdriverio');
-const  LoginPage = require('../pageobject/login.page.js')
+const sleep = require('sleep');
+const  LoginPage = require('../pageobject/login.page.js');
 
-const  OrgPage = require('../pageobject/org.page.js')
+const  OrgPage = require('../pageobject/org.page.js');
+const  AdminPage = require('../pageobject/admin.page.js');
+$ = require('cheerio');
 
 // init WebdriverIO
 describe('Organization page', function(){
@@ -13,7 +16,7 @@ describe('Organization page', function(){
         browser.windowHandleSize({width:1440,height:900});
     });
 
-    it('list repositiories', function() {
+    it('login support', function() {
      LoginPage.email.setValue('support@livetext.com');
      LoginPage.password.setValue('r0ys1ngh4m');
      LoginPage.btnStart.waitForExist();
@@ -34,8 +37,34 @@ describe('Organization page', function(){
         OrgPage.password.setValue('R0ys1ngh4m');
         OrgPage.repassword.setValue('R0ys1ngh4m');
         OrgPage.saveOrg();
-        expect(browser.getText('.organization-list .panel-group:nth-child(1) div a .organization-name:first-child')).toEqual('aasdawwww');
+        sleep.sleep(1);
+        expect(browser.getText('.organization-list .panel-group:nth-child(1) div a .organization-name:first-child')).to.eql('aasdawwww');
+        OrgPage.loginOut();
+        browser.waitForExist('#email');
 
+    });
+
+    it('login admin',function () {
+        LoginPage.email.setValue('test@aszxc21312312d.com');
+        LoginPage.password.setValue('R0ys1ngh4m');
+        LoginPage.btnStart.waitForExist(3000);
+        LoginPage.submit();
+        AdminPage.hierarchy.waitForExist(3000);
+        AdminPage.import.click();
+        $('div.upload input#file').attr('style', 'display: block;');
+        AdminPage.uploadUser("./file/user.csv");
+        // AdminPage.hierarchy.click();
+        // AdminPage.createNode.click();
+        // AdminPage.setFoldeNname("testnode");
+        // AdminPage.standard.click();
+        // AdminPage.createStandardSet("test_set","this is a standard set");
+        // AdminPage.template.click();
+        // sleep.sleep(1);
+        // AdminPage.createTemplate('testtemplate');
+        
+        // var notification = browser.element(' li.organizations a span');
+        // notification.waitForExist(5000);
+        // expect(browser.isExisting(' li.organizations a span')).to.be.ok;
     });
     // it('open project page', function() {
     //     brßßowser.click('.repo-list-item [href="/webdriverio/webdriverio"]');

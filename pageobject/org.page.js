@@ -47,6 +47,20 @@ var OrgPage = Object.create(page, {
             return browser.element('.save-and-cancel-buttons a.btn-success');
         }
     },
+
+
+    displayname: {
+        get: function () {
+            return browser.element('#user-panel-toggle .display-name');
+        }
+    },
+
+    loginoutbutton: {
+        get: function () {
+            return browser.element('.dropdown-menu .logout');
+        }
+    },
+
     /**
      * define or overwrite page methods
      */
@@ -71,7 +85,18 @@ var OrgPage = Object.create(page, {
             this.savebutton.click();
         }
 
-    }
+    },
+
+    loginOut: {
+        value: function () {
+            this.displayname.waitForExist(1000);
+            this.displayname.click();
+            this.loginoutbutton.waitForExist(1000);
+            this.loginoutbutton.click();
+        }
+
+    },
+
 
 });
 

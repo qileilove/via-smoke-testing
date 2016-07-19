@@ -1,0 +1,11 @@
+User ID,Firstname,Middlename,Lastname,Gender,Email,Role,Password,Major,Ethnicity,Class,Academic program,SAT,ACT,GRE,MCAT,GMAT,LSAT
+yhan,Han,,Yi,male,yhan@livetext.com,student,nopassword
+cmao,Mao,,Chao,male,chaomao@livetext.com,student,nopassword
+sbwu,Wu,,Shaobo,male,sbwu@livetext.com,student,nopassword
+kelu,Lu,,Ke,male,kelu@livetext.com,student,nopassword
+jiaxie,Xie,,Jia,female,jiaxie@livetext.com,student,nopassword
+zzxu,Xu,,Zhezi,female,zzxu@livetext.com,student,nopassword
+dzhang,Zhang,,Dai,male,dzhang@livetext.com,student,nopassword
+mgong,Gong,,Ming,male,mgong1@livetext.com,student,nopassword
+anjaliwa,Anjali,,Wadhwa,female,anjaliwa@livetext.com,student,nopassword
+patrickd,Patrick,,Duckhorn,male,patrick@livetext.com,faculty,nopassword

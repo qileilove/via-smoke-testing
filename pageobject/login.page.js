@@ -8,7 +8,7 @@ var LoginPage = Object.create(page, {
     email: { get: function () { return browser.element('#email'); } },
     password: { get: function () { return browser.element('#password'); } },
     // btnStart: { get: function () { return browser.elements("#loginbutton"); } },
-    btnStart: { get: function () { return browser.element('#loginbutton'); } },
+    btnStart: { get: function () { return browser.element('#login'); } },
 
 
     /**
